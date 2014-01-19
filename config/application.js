@@ -1,3 +1,5 @@
+//= require ../vendor/assets/javascripts/opal/opal
+//= require ../vendor/assets/javascripts/opal/opal-parser
 //= require jquery
 //= require environment
 //= require ember-appkit
