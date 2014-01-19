@@ -52,6 +52,26 @@ GEM
     mime-types (1.25.1)
     minitest (4.7.5)
     multi_json (1.8.4)
+    opal (0.5.5)
+      source_map
+    opal-activesupport (0.0.5)
+      opal
+    opal-jquery (0.1.2)
+      opal (~> 0.5.0)
+    opal-rails (0.6.2)
+      jquery-rails
+      opal (~> 0.5.0)
+      opal-activesupport (>= 0.0.5)
+      opal-jquery (>= 0.1.0)
+      opal-rspec
+      opal-sprockets (~> 0.3.0)
+      rails (>= 3.2.13, < 5.0)
+    opal-rspec (0.2.1)
+      opal (>= 0.5.4)
+      opal-sprockets (~> 0.3.0)
+    opal-sprockets (0.3.0)
+      opal (~> 0.5.0)
+      sprockets
     pg (0.17.1)
     polyglot (0.3.3)
     rack (1.5.2)
@@ -81,6 +101,8 @@ GEM
     sdoc (0.4.0)
       json (~> 1.8)
       rdoc (~> 4.0, < 5.0)
+    source_map (3.0.1)
+      json
     sprockets (2.10.1)
       hike (~> 1.2)
       multi_json (~> 1.0)
@@ -111,6 +133,7 @@ DEPENDENCIES
   coffee-rails (~> 4.0.0)
   jbuilder (~> 1.2)
   jquery-rails
+  opal-rails
   pg
   rails (= 4.0.2)
   sass-rails (~> 4.0.0)
