@@ -13,3 +13,7 @@
 
  *= require_tree .
  */
+
+#editor {
+  height: 300px;
+}

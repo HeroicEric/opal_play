@@ -1,7 +1,13 @@
-<h3>Ruby Code</h3>
-{{textarea value=code cols="80" rows="6"}}
-
-<button {{action 'run'}}>Run</button>
-
-<h3>Output</h3>
-{{textarea value=output cols="80" rows="6"}}
+<div class="row">
+  <div class="small-6 columns">
+    <h3>Ruby Code</h3>
+    {{code-editor code=code}}
+    <button {{action 'run'}}>Run</button>
+  </div>
+  <div class="small-6 columns">
+    <h3>Output</h3>
+    <div class="panel">
+      <pre>{{output}}</pre>
+    </div>
+  </div>
+</div>
