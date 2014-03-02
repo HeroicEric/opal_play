@@ -5,6 +5,8 @@
 //= require opal/opal-parser
 //= require ace/ace-noconflict
 //= require ace/mode-ruby
+//= require ace/theme-github
+//= require ace/keybinding-vim
 //= require_self
 //= require_tree ./adapters
 //= require router
