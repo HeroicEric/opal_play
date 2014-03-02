@@ -13,3 +13,7 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 
 gem 'ember-appkit-rails'
+
+group :production do
+  gem 'rails_12factor'
+end
